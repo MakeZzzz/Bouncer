@@ -19,6 +19,6 @@ public class SphereSpawner : MonoBehaviour
         var sphere = Instantiate(_sphere);
         var sphereColor = sphere.GetComponent<Renderer>();
         sphereColor.material.color = _colorSelection.color;
-        sphere.transform.position = new Vector3(Random.Range(-40, 40), 1.0f, Random.Range(-40, 40));
+        sphere.transform.position = new Vector3(Random.Range(-40, 40), 2.0f, Random.Range(-40, 40));
     }
 }
