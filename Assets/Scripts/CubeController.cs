@@ -46,7 +46,7 @@ public class CubeController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Border"))
         {
-            _rigidbody.transform.position = new Vector3(0, 2, 0);
+            _rigidbody.transform.position = new Vector3(0, 3, 0);
         }
     }
     public void StartMove(Vector3 target)
